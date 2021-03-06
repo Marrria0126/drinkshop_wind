@@ -1,0 +1,18 @@
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=drinkshop
+    username: sa
+    password: 1234
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
