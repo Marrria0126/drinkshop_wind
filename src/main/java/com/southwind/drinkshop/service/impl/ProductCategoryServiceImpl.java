@@ -55,6 +55,6 @@ public class ProductCategoryServiceImpl extends ServiceImpl<ProductCategoryMappe
             }
         }
 
-        return null;
+        return levelOneVO;
     }
 }
